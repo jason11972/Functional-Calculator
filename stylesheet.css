@@ -1,19 +1,21 @@
-body, div, a {
+body, div, button {
     padding:0;
     margin:0;
     font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
 }
-
+/*main body of calculator*/
 #calculator {
     background-image:url("images/blue_lego.png");
     width: 310px;
     height: 460px;
-    border: 10px black solid;
+    border: 6px dashed yellow;
+    box-shadow:0 0 0 6px #E8C008;
     margin: 10px auto;
     padding: 5px;
     border-radius: 10px;
+    outline:6px dashed yellow;
 }
-
+/*display section at top of calculator*/
 #total {
     height: 70px;
     width: 300px;
@@ -21,18 +23,21 @@ body, div, a {
     background-color:white;
     margin-bottom: 5px;
     text-align: right;
-    font-size: 60px;
+    font-size: 55px;
     padding: 0 5px;
+    color:black;
+    overflow: hidden;
+
 }
 
 #numbers, #operators {
     margin: auto;
 }
-
-#operators a {
+/*math functions*/
+#operators button {
     display: block;
-    width: 45px;
-    height: 45px;
+    width: 50px;
+    height: 54px;
     float: left;
     text-decoration: none;
     color: black;
@@ -44,18 +49,18 @@ body, div, a {
     border-radius: 50%;
     box-shadow: 10px 10px 5px #000000;
 }
-
-#numbers a {
+/*the number buttons*/
+#numbers button {
     display: block;
-    width: 50px;
-    height: 50px;
+    width: 70px;
+    height: 70px;
     float: left;
     text-decoration: none;
     color: black;
     text-align: center;
-    font-size: 32pt;
-    padding: 10px;
-    margin: 5px 15px;
+    font-size: 28px;
+    padding: 0;
+    margin: 5px 16px;
     border-radius: 50%;
     background-image: url("images/yellowlego.jpg");
     box-shadow: 10px 10px 5px #000000;
@@ -64,4 +69,5 @@ body {
     margin-top:10%;
 
 }
+
 
