@@ -6,8 +6,8 @@ body, div, button {
 /*main body of calculator*/
 #calculator {
     background-image:url("images/blue_lego.png");
-    width: 310px;
-    height: 460px;
+    width: 320px;
+    height: 500px;
     border: 6px dashed yellow;
     box-shadow:0 0 0 6px #E8C008;
     margin: 10px auto;
@@ -60,13 +60,16 @@ body, div, button {
     text-align: center;
     font-size: 28px;
     padding: 0;
-    margin: 5px 16px;
+    margin: 8px 18px;
     border-radius: 50%;
     background-image: url("images/yellowlego.jpg");
     box-shadow: 10px 10px 5px #000000;
 }
 body {
     margin-top:10%;
+    margin-left:50%;
+    background-image: url("images/legomovie2.jpg");
+
 
 }
 
