@@ -1,0 +1,73 @@
+body, div, button {
+    padding:0;
+    margin:0;
+    font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+/*main body of calculator*/
+#calculator {
+    background-image:url("images/blue_lego.png");
+    width: 310px;
+    height: 460px;
+    border: 6px dashed yellow;
+    box-shadow:0 0 0 6px #E8C008;
+    margin: 10px auto;
+    padding: 5px;
+    border-radius: 10px;
+    outline:6px dashed yellow;
+}
+/*display section at top of calculator*/
+#total {
+    height: 70px;
+    width: 300px;
+    margin:auto;
+    background-color:white;
+    margin-bottom: 5px;
+    text-align: right;
+    font-size: 55px;
+    padding: 0 5px;
+    color:black;
+    overflow: hidden;
+
+}
+
+#numbers, #operators {
+    margin: auto;
+}
+/*math functions*/
+#operators button {
+    display: block;
+    width: 39px;
+    height: 54px;
+    float: left;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    font-size: 39px;
+    padding: 2px;
+    margin: 5px 6px;
+    background-image:url("images/yellowlego.jpg");
+    border-radius: 50%;
+    box-shadow: 10px 10px 5px #000000;
+}
+/*the number buttons*/
+#numbers button {
+    display: block;
+    width: 70px;
+    height: 70px;
+    float: left;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    font-size: 28px;
+    padding: 0;
+    margin: 5px 16px;
+    border-radius: 50%;
+    background-image: url("images/yellowlego.jpg");
+    box-shadow: 10px 10px 5px #000000;
+}
+body {
+    margin-top:10%;
+
+}
+
+
